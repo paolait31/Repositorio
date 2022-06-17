@@ -1,0 +1,66 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title> Práctica-Bucles </title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<ul class="navbar">
+		<li><a href="index.html"> Pagina de Inicio </a></li>
+		<li><a href="Objetos.html"> Tema 1: Objetos </a></li>
+		<li><a href="Eventos.html"> Tema 2: Eventos </a></li>
+		<li><a href="Cadenas.html"> Tema 3: Cadenas </a></li>
+		<li><a href="Bucles.html"> Tema 4: Bucles </a></li>	
+	</ul>
+	<ul class="navbar2">
+		<li><a href="Conte_Buc.html"> Contenido </a></li>
+		<li><a href="Pract_Buc.html"> Práctica </a></li>
+	</ul>
+	<h1> Práctica: Bucles </h1>
+		<div class="tarjetacodigo">
+        <div class="titulocodigo">Código</div>
+        <div class="cuerpocodigo">
+            <p>
+            	<<f>html> <br>
+				<<f>body> <br>
+					<f> TEMA: CREAR BUCLES EN JS <br>
+
+					<<f>p id="demo"><<f>/p> <br>
+
+					<<f>script> <br>
+						let text = ""; <br>
+						
+						for (let i = 0; i < 5; i++) { <br>
+						text += "The number is " + i + "<br>";
+						} <br>
+
+						document.getElementById("demo").innerHTML = text;<br>
+					<<f>/script> <br>
+				<<f>/body> <br>
+				<<f>/html>
+            </p> 
+        </div>
+        </div>
+        <br>
+        <div class="tarjetapractica">
+        <div class="titulopractica">Resultado</div>
+        <div class="cuerpopractica">
+             	<h2>TEMA: CREAR BUCLES EN JS</h2>
+
+			    <p id="demo"></p>
+
+			    <script>
+			    let text = "";
+
+			    for (let i = 0; i < 8; i++) {
+			      text += "El número es " + i + "<br>";
+			    }
+
+			    document.getElementById("demo").innerHTML = text;
+			    </script>
+		<img src="bucles.png">
+        </div>
+        </div>
+        <br>
+</body>
+</html>
